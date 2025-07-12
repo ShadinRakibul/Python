@@ -5,3 +5,6 @@ print("Tuple:", tuple)
 print("Type of list is", type(list))
 print("Type of tuple is", type(tuple))
 print("This is the List and Tuple script in Chapter 1.")
+dict={'name': 'Alice', 'age': 30, 'city': 'New York'}
+print("Dictionary:", dict)
+print("Type of dictionary is", type(dict))
