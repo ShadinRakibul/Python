@@ -4,10 +4,11 @@ while(True):
     
     if userInput != 'q':
         sum = sum + int(userInput)
-        print(f"Order total so far: {sum}")
+        print(f"Your total so far: {sum}")
+        print("Last item added to your bill is: " + userInput)
     
     else:
-        print(f"Your Bill total is {sum}. Thanks for shopping with us")
+        print(f"Your total bill is {sum}. Thanks for shopping with us")
         break
 
 
