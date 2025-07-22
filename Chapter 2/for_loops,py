@@ -1,0 +1,21 @@
+name = 'Shadin'
+for i in name:
+    print(i, end= ',')
+# This code iterates over each character in the string 'name' and prints each character followed by a comma.
+
+colors = ['red', 'green', 'blue']
+for color in colors:
+    print(color)
+    for i in colors:
+        print(i)
+# # This code iterates over each element in the list 'colors' and prints each color followed by a space.
+
+for i in range(1, 11):
+    print(i)
+# This code uses a for loop to iterate over a range of numbers from 1 to 10 and prints each number.
+for k in range(1, 16):
+    print(k)
+# This code uses a for loop to iterate over a range of numbers from 1 to 100 and prints each number.
+for j in range(1, 10, 2):
+    print(j)
+# This code uses a for loop to iterate over a range of numbers from 1 to 9 with a step of 2 and prints each number. 
